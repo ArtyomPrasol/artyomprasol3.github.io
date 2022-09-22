@@ -101,7 +101,6 @@ footer {
 #maintest{
 	display: flex;
 	flex-dirextion: column;
-	justify-content: flex-start;
 }
 
 
