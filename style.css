@@ -32,14 +32,18 @@ ol{
 }
 
 nav{
-    margin-left: 20px;
+    margin: 20px;
     border-radius: 10px;
     background:#E6E6FA;
-    padding:10px 20px 10px 20px;
+    padding:20px;
     width: 200px;
 	flex: 1;
 	order:1;
 	
+}
+#menu{
+	text-decoration:underline;
+	word-spacing: 8px;
 }
 
 #p1{
