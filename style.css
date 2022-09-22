@@ -36,12 +36,14 @@ ol{
 }
 
 nav{
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 20px;
     border-radius: 10px;
     background:#E6E6FA;
     padding:10px 20px 10px 20px;
-    width: 400px;
+    width: 200px;
+	flex: 1;
+	order:1;
+	
 }
 
 #p1{
@@ -51,24 +53,21 @@ nav{
 	height: auto; 
 	text-align: center;
 	border-radius: 10px;
-    border-style: none;  
 	font-size: 25px;
-	box-shadow: 0 0 5px 1px #AAAAAA;
 	border-radius: 10px;
 	background:  #b2fba5;
     margin: 30px auto;
-	display:flex;
+	flex:2;
 	order:1;
 }
 
 #p2{
-	display:flex;
+	flex:3;
 	order:2;
-	
 }
 
 #p3{
-	display:flex;
+	flex:4;
 	order:3;
 }
 
