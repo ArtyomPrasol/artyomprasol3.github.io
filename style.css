@@ -119,15 +119,12 @@ footer {
 	}
 	
 	#p1{
-		flex: 1;
 		order:1;
 	}
 	#p2{
-		flex: 1;
 		order:3;
 	}
 	#p3{
-		flex: 1;
 		order:2;
 	}
 
