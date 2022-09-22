@@ -57,6 +57,18 @@ nav{
 	border-radius: 10px;
 	background:  #b2fba5;
     margin: 30px auto;
+	display:flex;
+	order:1;
+}
+
+#p2{
+	display:flex;
+	order:2;
+}
+
+#p3{
+	display:flex;
+	order:3;
 }
 
 h1{
@@ -92,7 +104,7 @@ footer {
 }
 
 
-@media screen and (max-width: 800px) 
+@media screen and (max-width: 900px) 
 {
 	#menu
 	{	
@@ -100,24 +112,16 @@ footer {
 		margin:auto; 
 		margin-top: 35px;
 		display: flex;
-		flex-direction: row;
+		flex-direction: ;
 	}
 
 	#menu nav
 	{
 		justify-content: space-around;
-		flex-direction: row;
+		flex-direction: wrap;
 
 	}
 
-	#maintest
-	{
-		max-width: 960px;
-		margin:auto;
-		margin-top: 35px;
-		margin-left:10px;
-	}
-	
 	#p1{
 		order:1;
 	}
