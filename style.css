@@ -7,7 +7,9 @@ header{
 div{
     text-align:center;
     background:#E6E6FA;
-    width: 400px;
+    width: 600px;
+	margin: 30px;
+	padding:20px;
 }
 
 table{
