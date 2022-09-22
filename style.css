@@ -86,7 +86,13 @@ footer {
     background-color:darkgoldenrod;
 }
 
-@media screen and (max-width: 1000px) 
+#maintest{
+	display: flex;
+	flex-dirextion: column;
+}
+
+
+@media screen and (max-width: 800px) 
 {
 	#menu
 	{	
@@ -94,13 +100,13 @@ footer {
 		margin:auto; 
 		margin-top: 35px;
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 	}
 
 	#menu nav
 	{
 		justify-content: space-around;
-		flex-direction: column;
+		flex-direction: row;
 
 	}
 
@@ -111,14 +117,18 @@ footer {
 		margin-top: 35px;
 		margin-left:10px;
 	}
-
-	#p2
-	{
-		order: 3;
+	
+	#p1{
+		flex: 1;
+		order:1;
+	}
+	#p2{
+		flex: 1;
+		order:3;
+	}
+	#p3{
+		flex: 1;
+		order:2;
 	}
 
-	#p3
-	{
-		order: 2;
-	}
 }
