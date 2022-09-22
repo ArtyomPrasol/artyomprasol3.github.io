@@ -64,6 +64,7 @@ nav{
 #p2{
 	display:flex;
 	order:2;
+	
 }
 
 #p3{
@@ -101,6 +102,7 @@ footer {
 #maintest{
 	display: flex;
 	flex-dirextion: column;
+	justify-content: center;
 }
 
 
