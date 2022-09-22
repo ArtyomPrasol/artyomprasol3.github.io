@@ -100,7 +100,7 @@ footer {
 
 #maintest{
 	display: flex;
-	flex-dirextion: wrap;
+	flex-dirextion: column;
 }
 
 
