@@ -114,14 +114,14 @@ footer {
 
 #maintest{
 	display: flex;
-	flex-dirextion: row;
+	flex-direction: row;
 }
 
 
 @media screen and (min-width: 800px) 
 {
 	#maintest{
-		flex-dirextion:column;
+		flex-direction:column;
 	}
 
 	#p1{
