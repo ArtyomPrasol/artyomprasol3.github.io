@@ -1,7 +1,18 @@
 header{
-	text-align:center;
     height:150px;
     background:	#9ACD32;
+}
+
+header p{
+	font-size:50px; 
+	font-family : LATHA; 
+	text-align:left;
+}
+header img{
+	float:left;
+	padding: 20px; 
+	width: 120px; 
+	height: 120px;
 }
 
 div{
