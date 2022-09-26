@@ -120,7 +120,7 @@ footer {
 	}
 	
 	#maintest{
-		flex-direction:row;
+		flex-direction:column;
 	}
 	nav{
 		weight:100px;
