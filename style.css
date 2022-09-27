@@ -40,9 +40,8 @@ nav{
     border-radius: 10px;
     background:#E6E6FA;
     padding:20px;
-	height: 200px;
-	flex: 1;
-	order:1;
+	height: 130px;
+
 	
 }
 
@@ -50,8 +49,9 @@ nav{
 }
 
 #menu{
-	text-decoration:underline;
-	word-spacing: 8px;
+	display:flex;
+	flex:0;
+	flex-direction: column;
 }
 
 #p1{
@@ -60,9 +60,9 @@ nav{
 	text-align: center;
 	font-size: 25px;
 	border-radius: 10px;
-	background: #E6E6FA;
-	flex:2;
+	background:#E6E6FA;
 	order:2;
+	flex: 1;
 	margin: 30px;
 	padding:20px;
 }
@@ -88,6 +88,7 @@ h1{
 }
 
 h2{
+	
     text-align:center;
 }
 
@@ -118,6 +119,14 @@ footer {
 
 @media only screen and (min-width: 800px) 
 {
+	#menu{
+	display:inline-block;
+		width: 500px;
+}
+	nav.h2.a{
+		margin:20px;
+	}
+	
 	header{
 		padding-left: 350px;
 	}
