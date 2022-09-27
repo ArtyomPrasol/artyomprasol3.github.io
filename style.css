@@ -45,6 +45,10 @@ nav{
 	order:1;
 	
 }
+
+.left{float:left;
+}
+
 #menu{
 	text-decoration:underline;
 	word-spacing: 8px;
