@@ -139,19 +139,15 @@ footer {
 		flex-direction:row;
 	}
 	nav{
-		weight:100px;
 	}
 
 	#p1{
-		weight:300px;
 		order:1;
 	}
 	#p2{
-		weight:300px;
 		order:2;
 	}
 	#p3{
-		weight:300px;
 		order:3;
 	}
 
